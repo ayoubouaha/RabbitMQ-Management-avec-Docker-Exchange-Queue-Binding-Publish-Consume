@@ -1,0 +1,1 @@
+Installez RabbitMQ avec Docker (par ex. `docker run -d --rm -p 5672:5672 -p 15672:15672 rabbitmq:3-management`), créez un échange (`2iteExchange`) et une file (`2iteQueue`), publiez un message (UI, HTTP API ou script) et vérifiez-le dans l'onglet "Queues and Streams" → "Get messages".
